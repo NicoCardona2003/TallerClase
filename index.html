@@ -1,32 +1,146 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Empresa XYZ - Inicio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de - AeroVista</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+       
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+       
+        nav {
+            background: #333;
+            padding: 1rem;
+        }
+       
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+       
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+       
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+       
+        .about-hero {
+            background: url('https://images.unsplash.com/photo-1540962351504-03099e0a754b?w=1200') center/cover;
+            height: 300px;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+       
+        .mission-vision {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+       
+        .card {
+            background: #f4f4f4;
+            padding: 2rem;
+            border-radius: 8px;
+        }
+       
+        .card h3 {
+            color: #1e3c72;
+            margin-bottom: 1rem;
+        }
+       
+        .team {
+            text-align: center;
+            margin-top: 3rem;
+        }
+       
+        .team img {
+            width: 100%;
+            max-width: 800px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+       
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Bienvenidos a Empresa XYZ</h1>
+    <header>
+        <h1>✈️ AeroVista</h1>
+        <p>Acerca de Nosotros</p>
+    </header>
+   
     <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="about.html">Sobre Nosotros</a></li>
-        <li><a href="services.html">Servicios</a></li>
-        <li><a href="contact.html">Contacto</a></li>
-      </ul>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acerca.html">Acerca de</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
     </nav>
-  </header>
-
-  <main>
-    <section>
-      <h2>Nuestra Misión</h2>
-      <p>Brindamos soluciones innovadoras con calidad y compromiso.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Empresa XYZ. Todos los derechos reservados.</p>
-  </footer>
+   
+    <div class="container">
+        <h2>Nuestra Historia</h2>
+        <div class="about-hero"></div>
+       
+        <p>AeroVista nació de la pasión por la aviación y el deseo de compartir conocimiento especializado con profesionales y entusiastas de la industria aeronáutica. Fundada en 2020, nuestra empresa se ha consolidado como una referencia en consultoría y servicios relacionados con la aviación comercial y privada.</p>
+       
+        <p>Con un equipo de expertos con más de 50 años de experiencia combinada en la industria, ofrecemos soluciones integrales que van desde la asesoría técnica hasta la planificación estratégica para operadores aéreos.</p>
+       
+        <div class="mission-vision">
+            <div class="card">
+                <h3>🎯 Nuestra Misión</h3>
+                <p>Proporcionar servicios de consultoría aeronáutica de excelencia, combinando experiencia técnica con innovación, para ayudar a nuestros clientes a alcanzar sus objetivos en el sector de la aviación de manera segura, eficiente y sostenible.</p>
+            </div>
+           
+            <div class="card">
+                <h3>👁️ Nuestra Visión</h3>
+                <p>Ser reconocidos como líderes en consultoría aeronáutica a nivel nacional, destacando por nuestra capacidad de adaptación a las nuevas tecnologías y nuestro compromiso con la excelencia operacional y la sostenibilidad ambiental.</p>
+            </div>
+        </div>
+       
+        <div class="team">
+            <h2>Nuestro Equipo</h2>
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800" alt="Equipo de trabajo">
+            <p>Contamos con profesionales altamente calificados, incluyendo pilotos comerciales, ingenieros aeronáuticos, especialistas en operaciones y consultores en gestión aeroportuaria.</p>
+        </div>
+    </div>
+   
+    <footer>
+        <p>&copy; 2024 AeroVista. Todos los derechos reservados.</p>
+    </footer>
 </body>
+</html>
 </html>
